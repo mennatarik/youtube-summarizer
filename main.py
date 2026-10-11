@@ -1,8 +1,5 @@
-"""Command-line version of the notebook (lab1-tips-hind.ipynb).
+"""Command-line version of the notebook (lab1-tips-hind.ipynb)."""
 
-Usage:
-    python main.py "https://youtu.be/Pv3r_BxuttA"
-"""
 import argparse
 
 from src.summarizer import load_summarizer, split_into_chunks, summarize_chunks

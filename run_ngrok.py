@@ -1,9 +1,5 @@
-"""Launch the Streamlit app and expose it publicly through ngrok.
+"""Launch the Streamlit app and expose it publicly through ngrok."""
 
-Usage:
-    export NGROK_AUTHTOKEN=your_token   # https://dashboard.ngrok.com/get-started/your-authtoken
-    python run_ngrok.py
-"""
 import os
 import subprocess
 import sys
